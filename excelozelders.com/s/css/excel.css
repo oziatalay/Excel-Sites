@@ -1,0 +1,14 @@
+﻿body {
+    font-family: Tahoma;
+    letter-spacing: 1px;
+}   
+
+iframe {
+    width: 992px;
+    height: 492px;
+    margin: 10px;
+}
+
+#xBanner {
+    padding: 25px;
+}

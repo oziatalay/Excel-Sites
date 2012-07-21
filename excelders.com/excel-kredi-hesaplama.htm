@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Excel fonksiyonlarından PMT ile kredi faiz hesaplamanın örnek ile açıklandığı makale bu sayfadadır." />
+    <title>Excel'de fonksiyon yardımı ile kredi faiz hesaplama / Excel Ders</title>
+    <link rel="canonical" href="http://excelders.com/excel-kredi-hesaplama.htm" />
+    <link href="s/css/excel.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="xHead">
+        <img src="s/img/excel-ders-logo.png" alt="Excel Ders" />
+        <ul id="xMenu">
+            <li>Ana sayfa</li>
+            <li>Hakkında</li>
+            <li>Excel Ders Eğitmenleri</li>
+            <li>Fiyat</li>
+            <li>İletişim</li>
+        </ul>
+    </div>
+    <div id="xLine">
+    </div>
+    <div id="xContent">
+        <div class="exp">
+            <h1>
+                <a href="excel-kredi-hesaplama.htm">Excel de fonksiyon yardımı ile kredi faiz hesaplama</a></h1>
+            <p>
+                Excel ödemelerimiz ile ilgili hesapları planlamak için güzel bir ortam.
+            </p>
+            <p>
+                Kredi faiz hesaplaması için excel finansal formüllerinden “<strong>PMT</strong>” fonksiyonunu kullanıyoruz. “<strong>PMT</strong>” bizim Excel’deki kredi hesaplama formülümüz.
+            </p>
+            <p>
+                Excel kredi faiz hesaplama için kullanılacaksa fonksiyonları yardımı ile bileşik faiz hesaplamak için kullanılabilir. Teorik olarak <strong>kredi faiz hesaplama</strong> sırasında “Tutar”, “Vade”, “Faiz Oranı” yeterli olucakken. Ülkemizde kredi işlemlerine yansıtılan ek faziler (KKDF, BSMV) olduğundan
+                gerçek aylık ödeme miktarını “<strong>PMT</strong>” fonksiyonu ile bulamayacağız.
+            </p>
+            <p>
+                Durumu netleştirerek küçük örneğimizde “<strong>PMT</strong>” fonksiyonu ile aylık ödemelerimizi hesaplayalım. Küçük bir tablo oluşturalım. Aşağıdaki hesap tablosunda örnek tabloyu görebilirsiniz.
+            </p>
+            <iframe src='https://docs.google.com/spreadsheet/ccc?key=0Akh-GpdP0CspdE54U0J5MGtUcFAwQXBoQlpDNm4wbnc'></iframe>
+            <p>
+                Aylık ödemenin gözükmesini istediğimiz hücreyi (B5) seçelim ve fonksiyon yardımcısıyla (fx) “PMT” fonksiyonu için yardımcıyı çalıştıralım.
+            </p>
+            <img src="s/img/excel-pmt-fonksiyonu.png" alt="PMT fonksiyonu" />
+            <p>
+                “Rate” aylık faiz oranını istiyor. Faiz oranını ödeme periyoduna bölerek veriyoruz. “B3 / 12” yazıyoruz.</p>
+            <p>
+                “Nper” vadeyi istiyor. “B2” yazıyoruz.</p>
+            <p>
+                “Pv” tutarı istiyor. Aylık ödeme sonucunun pozitif çıkmasını istiyorsak burada “-B1” (eksi B1) yazıyoruz.</p>
+            <p>
+                Sondaki 2 alan opsiyonel. OK tuşuna bastığımızda sonuç görüntüleniyor.</p>
+            <p>
+                Biz bu yazımızda “PMT” fonksiyonunu anlatmış olduk. Matematik tutkusu sitesinde, Erman Sayınalp’in hazırladığı, Excel makro kullanılarak yapılmış çok güzel bir kredi hesaplama programı var. Onu da mutlaka incelemenizi öneririm.
+            </p>
+        </div>
+    </div>
+    <div id="xFoot">
+        Excel Ders &copy; - İstanbul, Kadıköy, Kozyatağı - 0 532 362 84 65 - serdar [özel a] <a href="http://excelders.com">excelders.com</a>
+    </div>
+</body>
+</html>
